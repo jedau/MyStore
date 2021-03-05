@@ -1,0 +1,22 @@
+.product-item-image-container {
+    display: inline-block;
+    width: 50%;
+}
+
+.product-item-image {
+    margin-left: 8rem;
+}
+
+.product-item-details {
+    display: inline-block;
+    text-align: start;
+    justify-content: left;
+    width: 50%;
+    margin-top: 18px;
+}
+
+select {
+    display: block;
+    margin-bottom: 1.5rem;
+    width: 100px;
+}

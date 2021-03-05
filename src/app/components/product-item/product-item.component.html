@@ -1,0 +1,18 @@
+<div class="form-group product-card col-sm-4">
+    <div class="text-center product-item">
+        <a routerLink="product/{{ product.id }}">
+            <img src="{{ product.url }}" alt="{{ product.name }}" height="300" width="300" />
+        </a>
+        <div class="product-details">
+            <h4 class="card-title">{{ product.name }}</h4>
+            <h5 class="text-muted">{{ product.price }}</h5>
+            <select class="form-control" [(ngModel)]="quantity">
+                <option *ngFor="let qty of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]">{{ qty }}</option>
+            </select>
+        </div>
+        <br><br>
+        <button class="btn btn-primary" (click)=addToCart()>
+            Add To Cart
+        </button>
+    </div>
+</div>

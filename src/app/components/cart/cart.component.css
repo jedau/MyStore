@@ -1,0 +1,29 @@
+.cart-page {
+    justify-content: start;
+    margin-top: 50px;
+}
+
+.cart-side {
+    display: inline-block;
+    align-content: center;
+    vertical-align: top;
+    height: 80%;
+    width: 50%;
+    margin: 0px;
+}
+
+.cart {
+    margin-left: 2.5rem;
+    margin-right: 0rem;
+    width: 500px;
+}
+
+.payment-details {
+    display: inline-block;
+    height: 80%;
+    width: 50%;
+}
+
+.form-input {
+    width: 25rem;
+}

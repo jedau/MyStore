@@ -1,0 +1,17 @@
+.container {
+    vertical-align: center;
+    margin-bottom: 100px;
+}
+
+.product-list {
+    align-items: center;
+    display: block;
+    width: 1200px;
+    position: relative;
+    margin: 25px 10px 10px 10px;
+}
+
+.product-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

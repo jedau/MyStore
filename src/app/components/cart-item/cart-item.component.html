@@ -1,0 +1,18 @@
+<div class="cart-item">
+    <div class="prod-image">
+        <img src="{{ item.product.url }}" alt="{{ item.product.name }}" height="150" width="150" />
+    </div>
+    <div class="form-group prod-details">
+        <h4 class="card-title">{{ item.product.name }}</h4>
+        <h5 class="text-muted">{{ item.product.price }}</h5>
+        <div>
+            <input type="text" class="form-control qty" id="quantity" name="quantity" #quantity value="{{ item.quantity }}">
+            <button class="btn btn-primary" (click)=modifyQuantity(quantity.value)>
+                Edit
+            </button>
+        </div>
+        <button class="btn btn-link remove" (click)=removeFromCart()>
+            Remove
+        </button>
+    </div>
+</div>

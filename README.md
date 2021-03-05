@@ -1,6 +1,10 @@
 # MyStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+This is an Angular/Typescript frontend e-commerce application developed for the Udacity Mentorship program. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1 and styled using Bootstrap version 4.6.
+
+The application reads the data from a local json file, and dynamically populates the product list. User can browse items, add them to the cart and checkout. The project simulates a basic e-commerce flow from start to end, demonstrating key Angular concepts throughout the whole process.
+
+Users can add a product directly from the homepage, or by clicking on the product image and adding the product upon redirection to the product details page. Additionally, users can edit the amount both in the homepage and in the cart, and remove products by clicking on the remove link or by setting the product's quantity to 0. Using a service, the cart and total should automatically update whenever there are changes.
 
 ## Development server
 

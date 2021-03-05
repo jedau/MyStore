@@ -1,0 +1,32 @@
+.cart-item {
+    display: inline-block;
+    height: 150px;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.prod-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.prod-details {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.qty {
+    display: inline-block;
+    width: 75px;
+    vertical-align: middle;
+}
+
+.edit {
+    display: inline-block;
+}
+
+.remove {
+    padding: 0px;
+}
