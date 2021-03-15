@@ -22,6 +22,7 @@ export class ConfirmationComponent implements OnInit {
     this.cart = this.cartService.getCart();
     this.customer = this.cartService.getCustomerDetails();
     this.orderNumber = this.cartService.orderNumber;
+    this.cartService.setCart([], 0);
     if (this.cart == undefined) {
       alert("You need to complete an order first!");
       this.router.navigate(['']);

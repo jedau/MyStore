@@ -1,7 +1,7 @@
 <div class="form-group product-card col-sm-4">
     <div class="text-center product-item">
         <a routerLink="product/{{ product.id }}">
-            <img src="{{ product.url }}" alt="{{ product.name }}" height="300" width="300" />
+            <div class="img" style="background-image:url('{{ product.url }}')"></div>
         </a>
         <div class="product-details">
             <h4 class="card-title">{{ product.name }}</h4>

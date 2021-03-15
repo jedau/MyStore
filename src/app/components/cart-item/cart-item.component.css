@@ -5,6 +5,14 @@
     margin-bottom: 1.5rem;
 }
 
+.img {
+    width: 150px;
+    height: 150px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
 .prod-image {
     display: inline-block;
     vertical-align: middle;
